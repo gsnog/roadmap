@@ -1,4 +1,4 @@
-# Resumo: Bloco 8, Threads e concorrência
+# Resumo: Bloco 8, Memória da JVM e garbage collector
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

@@ -1,10 +1,10 @@
-# Bloco 10: Spring Boot por dentro
+# Bloco 10: Redes e HTTP
 
 **Semana 10 · cerca de 5 horas**
 
 ## Objetivo
 
-Entender o que o Spring faz por baixo: inversão de controle, injeção de dependência, auto-configuração e o caminho de uma requisição até o seu controller.
+Entender o caminho completo de uma requisição (DNS, TCP, TLS, HTTP) e dominar métodos, status codes e headers.
 
 ## Como dividir a semana
 
@@ -12,18 +12,20 @@ Entender o que o Spring faz por baixo: inversão de controle, injeção de depen
 - **2h de prática:** os exercícios, **sem IA escrevendo código**. Se travar, use a IA só para explicar o conceito ou o erro.
 - **1h de fechamento:** preencher o `resumo.md` e fazer a `avaliacao.md`.
 
+Se não der tempo de terminar, continue na semana seguinte no mesmo ritmo. Nunca compense dobrando as horas.
+
 ## O que estudar (nesta ordem)
 
-1. **spring.io/guides**: "Building a RESTful Web Service" e "Building an Application with Spring Boot".
-2. Documentação do Spring Framework, seção "The IoC Container".
-3. Canal **Michelli Brito** no YouTube, vídeos de Spring Boot em português.
-4. **Baeldung**: "Intro to Inversion of Control and Dependency Injection with Spring" e "An Intro to the Spring DispatcherServlet".
+1. **MDN Web Docs** (developer.mozilla.org), "Uma visão geral do HTTP", "Métodos de requisição HTTP" e "Códigos de status HTTP". Disponível em português.
+2. Repositório **what-happens-when** no GitHub (alex/what-happens-when): o que acontece quando você digita um endereço no navegador.
+3. Canal **Hussein Nasser** no YouTube, vídeos sobre HTTP e TCP.
+4. Documentação do **curl** (curl.se), para fazer requisições pelo terminal.
 
 ## Prática
 
-1. Transforme o projeto em uma API Spring Boot com camadas controller, service e repository (ainda com dados em memória).
-2. Coloque um breakpoint no seu controller e, pelo stack trace no debugger, identifique as classes do Spring por onde a requisição passou antes de chegar ao seu código.
-3. Rode a aplicação com `--debug` e leia o relatório de auto-configuração. Escolha três itens e explique o que cada um configurou.
+1. Faça requisições com `curl -v` para uma API pública e explique cada linha da saída: a resolução, o handshake, os headers enviados e recebidos.
+2. Escreva um servidor HTTP mínimo em Java puro, sem Spring, usando `com.sun.net.httpserver.HttpServer`, que responda a um GET. Isso mostra o que o Spring faz por você.
+3. Liste os endpoints que seu projeto vai ter na Fase 3 e decida o método e os status codes de cada um, justificando.
 
 ## Regra da semana
 

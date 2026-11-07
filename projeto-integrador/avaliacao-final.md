@@ -1,6 +1,6 @@
 # Avaliação final: defesa
 
-Esta avaliação não é sobre escrever mais código. É sobre **sustentar** o que você construiu. Faça com o mentor, se possível. Se não for possível, faça com a IA usando o prompt no final.
+Esta avaliação não é sobre escrever mais código. É sobre **sustentar** o que você construiu. **Faça com uma pessoa, de preferência o seu mentor.** O prompt no final serve para treinar antes, não para substituir a defesa com uma pessoa.
 
 ## Parte 1: defesa das decisões (cerca de 30 min)
 
@@ -12,6 +12,8 @@ Explique, sem consultar o código:
 4. Como o snapshot garante que um pedido antigo seja reproduzível?
 5. Por que dinheiro em centavos ou `BigDecimal`, e não `double`?
 6. Quais índices você criou e que evidência mostrou que eles ajudam?
+7. Como você garante que um retry não cria um pedido duplicado?
+8. Como você fez a migração de schema sem perder dados e sem indisponibilidade?
 
 ## Parte 2: cenário sob pressão (cerca de 30 min)
 
@@ -36,7 +38,7 @@ Responda por escrito:
 - No cenário sob pressão, o raciocínio segue sintoma, hipóteses, evidências e causa, em vez de tentativa e erro.
 - A autoavaliação reconhece limites concretos.
 
-## Prompt para fazer a defesa com a IA
+## Prompt para treinar a defesa com a IA
 
 ```
 Quero fazer a avaliação final de defesa do meu projeto integrador

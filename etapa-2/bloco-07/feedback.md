@@ -1,4 +1,4 @@
-# Feedback: Bloco 7, Memória da JVM e garbage collector
+# Feedback: Bloco 7, Árvores, ordenação e busca
 
 > Preenchido depois da correção (Prompt 4 do README).
 

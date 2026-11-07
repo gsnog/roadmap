@@ -1,4 +1,4 @@
-# Avaliação: Bloco 12, Validação, tratamento de erros e logs na API
+# Avaliação: Bloco 12, Testes automatizados (aprofundamento)
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-Onde deve ficar a validação de entrada: no controller, no service ou no domínio? Justifique com o seu projeto.
+Qual a diferença entre um teste unitário e um teste de integração? Dê um exemplo de cada um no seu projeto.
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ Onde deve ficar a validação de entrada: no controller, no service ou no domín
 
 ### 2.
 
-Por que a API não deve devolver o stack trace da exceção para o cliente?
+Quando usar um mock é uma boa ideia e quando ele esconde problemas?
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Por que a API não deve devolver o stack trace da exceção para o cliente?
 
 ### 3.
 
-Quando um log deve ser INFO, WARN ou ERROR? Dê um exemplo de cada um do seu projeto.
+Cobertura de código de 100% garante que o código está correto? Por quê?
 
 **Minha resposta:**
 
@@ -35,7 +35,7 @@ Quando um log deve ser INFO, WARN ou ERROR? Dê um exemplo de cada um do seu pro
 
 ### 4.
 
-Que informações nunca devem aparecer em logs? Por quê?
+Que casos de borda você testou no cálculo de desconto? Qual deles você quase esqueceu?
 
 **Minha resposta:**
 
@@ -43,7 +43,7 @@ Que informações nunca devem aparecer em logs? Por quê?
 
 ### 5.
 
-Na sua quebra intencional, qual sintoma foi o mais difícil de relacionar com a causa? O que teria ajudado a encontrar mais rápido?
+Como você testaria um método que depende da data e hora atual?
 
 **Minha resposta:**
 

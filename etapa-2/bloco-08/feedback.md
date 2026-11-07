@@ -1,4 +1,4 @@
-# Feedback: Bloco 8, Threads e concorrência
+# Feedback: Bloco 8, Memória da JVM e garbage collector
 
 > Preenchido depois da correção (Prompt 4 do README).
 

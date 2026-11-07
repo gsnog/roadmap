@@ -1,6 +1,6 @@
 # Roadmap: fundamentos de engenharia backend
 
-Um roadmap de 20 semanas (cerca de 5 meses, até 5 horas por semana) para dominar os fundamentos de backend **sem depender da IA para escrever código**: entender por que cada coisa acontece e diagnosticar sozinha onde e por que algo deu errado.
+Um roadmap de 27 semanas (cerca de 6 a 7 meses, até 5 horas por semana) para dominar os fundamentos de backend **sem depender da IA para escrever código**: entender por que cada coisa acontece e diagnosticar sozinha onde e por que algo deu errado.
 
 Ele é a base para estudar System Design depois. System Design só faz sentido quando você entende o que acontece dentro de um único serviço.
 
@@ -15,24 +15,39 @@ Ele é a base para estudar System Design depois. System Design só faz sentido q
 
 | Etapa | Semanas | Foco | Tema |
 |---|---|---|---|
-| [1](etapa-1/README.md) | 1 a 4 | Entender | Java e ferramentas |
-| [2](etapa-2/README.md) | 5 a 8 | Entender por baixo | Estruturas de dados, memória e concorrência |
-| [3](etapa-3/README.md) | 9 a 12 | Rodar e modificar | HTTP, Spring e testes |
-| [4](etapa-4/README.md) | 13 a 16 | Diagnosticar | Banco de dados e ambiente |
-| [5](etapa-5/README.md) | 17 a 20 | Defender | Observabilidade, incidentes e defesa final |
+| [1](etapa-1/README.md) | 1 a 5 | Entender | Java, ferramentas e trabalho em time |
+| [2](etapa-2/README.md) | 6 a 9 | Entender por baixo | Estruturas de dados, memória e concorrência |
+| [3](etapa-3/README.md) | 10 a 15 | Rodar e modificar | HTTP, Spring, testes e segurança |
+| [4](etapa-4/README.md) | 16 a 21 | Diagnosticar | Banco de dados, idempotência e ambiente |
+| [5](etapa-5/README.md) | 22 a 27 | Defender | Migrações, código herdado, incidentes e defesa final |
+
+O plano soma cerca de 130 a 140 horas. A versão 2, depois da validação com o mentor, está descrita no [`CHANGELOG.md`](CHANGELOG.md).
+
+## O que mais importa
+
+Segundo o mentor, estes são os pontos que mais diferenciam um engenheiro júnior de um pleno, em ordem. Quando faltar tempo, priorize as atividades ligadas a eles:
+
+1. Método de diagnóstico: hipótese e evidência, nunca tentativa e erro.
+2. Transações e concorrência.
+3. Localizar em que camada está o erro.
+4. Escrever o teste que falha quando o código quebra.
+5. Ler `EXPLAIN` e métricas.
+6. Defender um trade-off.
+
+Implementar estruturas de dados na mão, por outro lado, não diferencia. Por isso o roadmap só tem uma.
 
 Cada etapa depende da anterior. O projeto integrador atravessa todas elas.
 
 ## Como usar
 
-1. **Antes de começar:** leve este plano ao seu mentor com as perguntas de [`perguntas-mentor.md`](perguntas-mentor.md) e ajuste o plano com o Prompt 2 do método.
+1. **Validação:** feita (veja o [`CHANGELOG.md`](CHANGELOG.md)). Se mudar algo grande no plano, valide de novo com o mentor.
 2. **A cada semana**, abra a pasta do bloco e siga esta ordem:
    - `conteudo.md`: estude e faça a prática.
    - `resumo.md`: anote o que aprendeu, com as suas palavras.
    - `avaliacao.md`: responda sem consulta.
    - `feedback.md`: registre a correção feita com o Prompt 4 abaixo.
 3. **Marque o avanço** em [`progresso.md`](progresso.md).
-4. **Se uma semana não for suficiente**, use duas. É melhor atrasar do que avançar com a base frágil.
+4. **Se uma semana não for suficiente,** continue o bloco na semana seguinte, no mesmo ritmo de 5 horas, e empurre o prazo final. **Nunca dobre as horas de uma semana para recuperar.** Isso gera cansaço e estudo raso.
 
 ## Prompt 4: ser avaliada ao fim de cada bloco
 
@@ -65,7 +80,7 @@ e o que eu preciso revisar antes de avançar para a próxima etapa.
 
 Este roadmap cobre os fundamentos de um único serviço. Ficam de fora, de propósito:
 
-- **System Design e sistemas distribuídos** (Saga, Outbox, Kafka, microsserviços): é a próxima fase, e ela depende de tudo o que está aqui.
+- **System Design e sistemas distribuídos** (cache, filas, consistência eventual, replicação): é a próxima fase, descrita em [`proxima-fase.md`](proxima-fase.md).
 - **Kotlin e Go:** ficam mais fáceis depois de dominar Java a fundo. Kotlin roda na mesma JVM, então quase tudo daqui se aplica a ele.
 - **Cloud, AWS e Kubernetes:** são camadas de infraestrutura sobre os conceitos de containers e ambiente que você vai aprender aqui.
 - **Frontend:** não é o foco da sua carreira backend.
@@ -79,6 +94,8 @@ roadmap/
 ├── progresso.md
 ├── modo-sabotagem.md
 ├── perguntas-mentor.md
+├── CHANGELOG.md
+├── proxima-fase.md
 ├── etapa-1/ … etapa-5/
 │   ├── README.md
 │   └── bloco-NN/

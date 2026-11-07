@@ -1,4 +1,4 @@
-# Feedback: Bloco 6, Árvores, ordenação e busca
+# Feedback: Bloco 6, Complexidade (Big O) e estruturas lineares
 
 > Preenchido depois da correção (Prompt 4 do README).
 

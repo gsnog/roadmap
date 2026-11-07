@@ -1,4 +1,4 @@
-# Avaliação: Bloco 11, Testes automatizados
+# Avaliação: Bloco 11, Spring Boot por dentro
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-Qual a diferença entre um teste unitário e um teste de integração? Dê um exemplo de cada um no seu projeto.
+O que é injeção de dependência e qual problema ela resolve? Mostre com uma classe do seu projeto.
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ Qual a diferença entre um teste unitário e um teste de integração? Dê um ex
 
 ### 2.
 
-Quando usar um mock é uma boa ideia e quando ele esconde problemas?
+Qual a diferença entre injeção por construtor e por campo (`@Autowired` no atributo)? Por que a injeção por construtor é recomendada?
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Quando usar um mock é uma boa ideia e quando ele esconde problemas?
 
 ### 3.
 
-Cobertura de código de 100% garante que o código está correto? Por quê?
+Descreva o caminho de uma requisição HTTP no Spring, do servidor embarcado até o seu método do controller.
 
 **Minha resposta:**
 
@@ -35,7 +35,7 @@ Cobertura de código de 100% garante que o código está correto? Por quê?
 
 ### 4.
 
-Que casos de borda você testou no cálculo de desconto? Qual deles você quase esqueceu?
+O que é a auto-configuração do Spring Boot? Como ela decide o que configurar?
 
 **Minha resposta:**
 
@@ -43,7 +43,7 @@ Que casos de borda você testou no cálculo de desconto? Qual deles você quase 
 
 ### 5.
 
-Como você testaria um método que depende da data e hora atual?
+Qual é o escopo padrão de um bean no Spring? Que problema isso pode causar se o bean guardar estado em um atributo?
 
 **Minha resposta:**
 

@@ -1,4 +1,4 @@
-# Feedback: Bloco 2, Java: tipos, referências e orientação a objetos
+# Feedback: Bloco 2, Java: tipos, referências, orientação a objetos e primeiros testes
 
 > Preenchido depois da correção (Prompt 4 do README).
 

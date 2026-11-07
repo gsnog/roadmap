@@ -1,4 +1,4 @@
-# Feedback: Bloco 10, Spring Boot por dentro
+# Feedback: Bloco 10, Redes e HTTP
 
 > Preenchido depois da correção (Prompt 4 do README).
 

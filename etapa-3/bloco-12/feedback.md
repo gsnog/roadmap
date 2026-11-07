@@ -1,4 +1,4 @@
-# Feedback: Bloco 12, Validação, tratamento de erros e logs na API
+# Feedback: Bloco 12, Testes automatizados (aprofundamento)
 
 > Preenchido depois da correção (Prompt 4 do README).
 

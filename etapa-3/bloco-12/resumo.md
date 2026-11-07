@@ -1,4 +1,4 @@
-# Resumo: Bloco 12, Validação, tratamento de erros e logs na API
+# Resumo: Bloco 12, Testes automatizados (aprofundamento)
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

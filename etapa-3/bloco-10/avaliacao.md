@@ -1,4 +1,4 @@
-# Avaliação: Bloco 10, Spring Boot por dentro
+# Avaliação: Bloco 10, Redes e HTTP
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-O que é injeção de dependência e qual problema ela resolve? Mostre com uma classe do seu projeto.
+Descreva o que acontece entre você rodar `curl https://api.exemplo.com/pedidos` e receber a resposta.
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ O que é injeção de dependência e qual problema ela resolve? Mostre com uma c
 
 ### 2.
 
-Qual a diferença entre injeção por construtor e por campo (`@Autowired` no atributo)? Por que a injeção por construtor é recomendada?
+Quais métodos HTTP são idempotentes? Por que isso importa quando uma requisição é repetida por causa de timeout?
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Qual a diferença entre injeção por construtor e por campo (`@Autowired` no at
 
 ### 3.
 
-Descreva o caminho de uma requisição HTTP no Spring, do servidor embarcado até o seu método do controller.
+Qual a diferença entre os status 400, 401, 403, 404, 409 e 500? Dê um exemplo do seu projeto para cada um.
 
 **Minha resposta:**
 
@@ -35,7 +35,7 @@ Descreva o caminho de uma requisição HTTP no Spring, do servidor embarcado at�
 
 ### 4.
 
-O que é a auto-configuração do Spring Boot? Como ela decide o que configurar?
+Qual a diferença entre PUT e PATCH?
 
 **Minha resposta:**
 
@@ -43,7 +43,7 @@ O que é a auto-configuração do Spring Boot? Como ela decide o que configurar?
 
 ### 5.
 
-Qual é o escopo padrão de um bean no Spring? Que problema isso pode causar se o bean guardar estado em um atributo?
+Para que serve o TLS? O que ele protege e o que ele não protege?
 
 **Minha resposta:**
 

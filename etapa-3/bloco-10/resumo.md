@@ -1,4 +1,4 @@
-# Resumo: Bloco 10, Spring Boot por dentro
+# Resumo: Bloco 10, Redes e HTTP
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

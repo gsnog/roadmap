@@ -1,10 +1,10 @@
-# Bloco 7: Memória da JVM e garbage collector
+# Bloco 7: Árvores, ordenação e busca
 
 **Semana 7 · cerca de 5 horas**
 
 ## Objetivo
 
-Entender onde os objetos vivem (stack e heap), como o garbage collector funciona e como diagnosticar problemas de memória.
+Entender árvores binárias, busca binária e os principais algoritmos de ordenação, e saber por que índices de banco usam árvores.
 
 ## Como dividir a semana
 
@@ -12,19 +12,19 @@ Entender onde os objetos vivem (stack e heap), como o garbage collector funciona
 - **2h de prática:** os exercícios, **sem IA escrevendo código**. Se travar, use a IA só para explicar o conceito ou o erro.
 - **1h de fechamento:** preencher o `resumo.md` e fazer a `avaliacao.md`.
 
+Se não der tempo de terminar, continue na semana seguinte no mesmo ritmo. Nunca compense dobrando as horas.
+
 ## O que estudar (nesta ordem)
 
-1. **Baeldung**: "Stack Memory and Heap Space in Java" e "JVM Garbage Collectors".
-2. Documentação da Oracle: "HotSpot Virtual Machine Garbage Collection Tuning Guide", capítulos introdutórios.
-3. **VisualVM** (visualvm.github.io): ferramenta gratuita para observar memória e threads de uma aplicação em execução.
-4. Documentação do comando `jcmd`, para gerar heap dump e informações da JVM.
+1. **Entendendo Algoritmos**, capítulo 4 (quicksort e dividir para conquistar).
+2. **VisuAlgo**: ordenação (sorting) e árvore de busca binária (BST).
+3. Canal **NeetCode** no YouTube, vídeos sobre binary search e trees.
 
 ## Prática
 
-1. Escreva um programa que vaze memória de propósito (por exemplo, adicionando objetos em uma lista estática para sempre). Observe a memória subindo no VisualVM até o `OutOfMemoryError`.
-2. Gere um `StackOverflowError` com uma recursão sem fim e leia o stack trace.
-3. Rode o mesmo programa com `-Xmx` diferentes e observe a mudança de comportamento.
-4. Pesquise o que mudou na memória entre Java 11 e versões recentes (por exemplo, os compact object headers do Java 25) e relacione com a migração que você fez no trabalho.
+1. Implemente busca binária do zero e escreva testes para os casos de borda (lista vazia, um elemento, elemento ausente).
+2. Resolva no LeetCode, sem IA: Binary Search (704).
+3. Ordene a lista de pedidos do seu projeto por valor com um `Comparator` e explique qual algoritmo o Java usa por baixo.
 
 ## Regra da semana
 

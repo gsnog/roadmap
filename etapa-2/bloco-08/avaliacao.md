@@ -1,4 +1,4 @@
-# Avaliação: Bloco 8, Threads e concorrência
+# Avaliação: Bloco 8, Memória da JVM e garbage collector
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-Duas threads incrementam o mesmo `int` 10.000 vezes cada. Por que o resultado costuma ser menor que 20.000? Explique o que acontece em `contador++`.
+O que fica na stack e o que fica na heap? Use um exemplo de código seu para explicar.
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ Duas threads incrementam o mesmo `int` 10.000 vezes cada. Por que o resultado co
 
 ### 2.
 
-Qual a diferença entre usar `synchronized` e `AtomicInteger` para resolver o problema acima? Quando cada um é mais adequado?
+Se Java tem garbage collector, como é possível existir vazamento de memória? Dê um exemplo.
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Qual a diferença entre usar `synchronized` e `AtomicInteger` para resolver o pr
 
 ### 3.
 
-O que é um deadlock? Quais são as condições para ele acontecer e como você o evitaria?
+Qual a diferença entre `OutOfMemoryError` e `StackOverflowError`? Como você diagnostica cada um?
 
 **Minha resposta:**
 
@@ -35,7 +35,7 @@ O que é um deadlock? Quais são as condições para ele acontecer e como você 
 
 ### 4.
 
-Por que usar um `ExecutorService` em vez de criar `new Thread()` para cada tarefa?
+O que é uma pausa de garbage collection e por que ela importa em uma API com muitas requisições?
 
 **Minha resposta:**
 
@@ -43,7 +43,7 @@ Por que usar um `ExecutorService` em vez de criar `new Thread()` para cada taref
 
 ### 5.
 
-Qual a diferença entre `HashMap` e `ConcurrentHashMap` em um cenário com várias threads?
+Explique com suas palavras por que a migração do Java 11 para o 25 pode reduzir o uso de memória de uma aplicação.
 
 **Minha resposta:**
 

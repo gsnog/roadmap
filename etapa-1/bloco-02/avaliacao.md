@@ -1,4 +1,4 @@
-# Avaliação: Bloco 2, Java: tipos, referências e orientação a objetos
+# Avaliação: Bloco 2, Java: tipos, referências, orientação a objetos e primeiros testes
 
 ## Regras
 
@@ -58,6 +58,14 @@ Por que String é imutável em Java? Cite pelo menos duas vantagens dessa decis�
 ### 5.
 
 Quando você escolheria composição em vez de herança? Use o exemplo dos descontos que você modelou.
+
+**Minha resposta:**
+
+
+
+### 6.
+
+O que um teste com `assertThrows` verifica? Mostre um teste seu e explique por que ele falharia se a validação fosse removida.
 
 **Minha resposta:**
 

@@ -1,10 +1,10 @@
-# Bloco 6: Árvores, ordenação e busca
+# Bloco 6: Complexidade (Big O) e estruturas lineares
 
 **Semana 6 · cerca de 5 horas**
 
 ## Objetivo
 
-Entender árvores binárias, busca binária e os principais algoritmos de ordenação, e saber por que índices de banco usam árvores.
+Estimar o custo de um algoritmo e entender por dentro arrays, listas ligadas, pilhas, filas e tabelas hash.
 
 ## Como dividir a semana
 
@@ -12,17 +12,19 @@ Entender árvores binárias, busca binária e os principais algoritmos de ordena
 - **2h de prática:** os exercícios, **sem IA escrevendo código**. Se travar, use a IA só para explicar o conceito ou o erro.
 - **1h de fechamento:** preencher o `resumo.md` e fazer a `avaliacao.md`.
 
+Se não der tempo de terminar, continue na semana seguinte no mesmo ritmo. Nunca compense dobrando as horas.
+
 ## O que estudar (nesta ordem)
 
-1. **Entendendo Algoritmos**, capítulos 6 em diante, sobre grafos e busca.
-2. **VisuAlgo**: ordenação (sorting) e árvore de busca binária (BST).
-3. Canal **NeetCode** no YouTube, vídeos sobre binary search e trees.
+1. **Entendendo Algoritmos**, de Aditya Bhargava, capítulos 1 a 3 e capítulo 5 (tabelas hash).
+2. **VisuAlgo** (visualgo.net): visualizações de listas ligadas, pilhas, filas e hash tables.
+3. **Big-O Cheat Sheet** (bigocheatsheet.com) como referência rápida.
+4. Canal **NeetCode** no YouTube, vídeos introdutórios sobre arrays e hashing.
 
 ## Prática
 
-1. Implemente busca binária do zero e escreva testes para os casos de borda (lista vazia, um elemento, elemento ausente).
-2. Resolva no LeetCode, sem IA: Binary Search (704), Merge Two Sorted Lists (21) e Maximum Depth of Binary Tree (104).
-3. Ordene a lista de pedidos do seu projeto por valor com um `Comparator` e explique qual algoritmo o Java usa por baixo.
+1. Implemente do zero uma tabela hash simples, com tratamento de colisão por lista. Compare com o que você aprendeu do `HashMap` no bloco 3. É a única estrutura implementada na mão no roadmap (veja o CHANGELOG para o motivo).
+2. Resolva no LeetCode, sem IA: Two Sum (problema 1).
 
 ## Regra da semana
 

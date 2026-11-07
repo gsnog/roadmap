@@ -1,4 +1,4 @@
-# Resumo: Bloco 6, Árvores, ordenação e busca
+# Resumo: Bloco 6, Complexidade (Big O) e estruturas lineares
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

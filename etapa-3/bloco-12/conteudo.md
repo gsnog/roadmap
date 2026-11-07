@@ -1,10 +1,10 @@
-# Bloco 12: Validação, tratamento de erros e logs na API
+# Bloco 12: Testes automatizados (aprofundamento)
 
 **Semana 12 · cerca de 5 horas**
 
 ## Objetivo
 
-Fazer a API responder bem a entradas inválidas e erros, com mensagens claras, status corretos e logs úteis. Fechar a etapa com a primeira rodada de quebra intencional.
+Aprofundar o JUnit que você começou no bloco 2: testes de integração, mocks e o que testar em cada nível.
 
 ## Como dividir a semana
 
@@ -12,18 +12,20 @@ Fazer a API responder bem a entradas inválidas e erros, com mensagens claras, s
 - **2h de prática:** os exercícios, **sem IA escrevendo código**. Se travar, use a IA só para explicar o conceito ou o erro.
 - **1h de fechamento:** preencher o `resumo.md` e fazer a `avaliacao.md`.
 
+Se não der tempo de terminar, continue na semana seguinte no mesmo ritmo. Nunca compense dobrando as horas.
+
 ## O que estudar (nesta ordem)
 
-1. Documentação do Spring sobre **Bean Validation** (`@Valid`, `@NotNull`, `@Positive`).
-2. **Baeldung**: "Error Handling for REST with Spring" (`@ControllerAdvice`) e "Returning Errors Using ProblemDetail in Spring Boot".
-3. RFC 9457, "Problem Details for HTTP APIs" (rfc-editor.org), o padrão de resposta de erro.
-4. Documentação do **SLF4J** e do **Logback**, sobre níveis de log.
+1. **JUnit 5 User Guide** (junit.org/junit5): seções que você ainda não leu, como testes parametrizados.
+2. Documentação do **Mockito** (site.mockito.org).
+3. Artigo "The Practical Test Pyramid", de Ham Vocke, em martinfowler.com.
+4. **spring.io/guides**: "Testing the Web Layer".
 
 ## Prática
 
-1. Adicione validação a todos os endpoints e um handler global de erros que devolva respostas no formato ProblemDetail.
-2. Adicione logs nos pontos importantes do fluxo, escolhendo o nível de cada um (DEBUG, INFO, WARN, ERROR) e justificando.
-3. **Quebra intencional, sabendo o que quebrou** (veja modo-sabotagem.md): quebre de propósito três coisas no projeto (uma validação, uma regra de desconto, uma injeção de dependência) e anote o sintoma que cada uma produz. Essa é a sua coleção de assinaturas de erro.
+1. Escreva testes unitários para toda a lógica de cálculo de desconto do projeto, incluindo os casos de borda.
+2. Escreva testes de integração para os endpoints com MockMvc.
+3. Quebre uma regra de negócio de propósito e confirme que pelo menos um teste falha. Se nenhum falhar, escreva o teste que faltava.
 
 ## Regra da semana
 

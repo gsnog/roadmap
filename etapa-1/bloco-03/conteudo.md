@@ -12,6 +12,8 @@ Saber escolher a coleção certa para cada problema, entender como o HashMap fun
 - **2h de prática:** os exercícios, **sem IA escrevendo código**. Se travar, use a IA só para explicar o conceito ou o erro.
 - **1h de fechamento:** preencher o `resumo.md` e fazer a `avaliacao.md`.
 
+Se não der tempo de terminar, continue na semana seguinte no mesmo ritmo. Nunca compense dobrando as horas.
+
 ## O que estudar (nesta ordem)
 
 1. **dev.java/learn**, trilha "The Collections Framework".

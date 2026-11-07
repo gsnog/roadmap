@@ -10,10 +10,20 @@ Primeiro você quebra **sabendo** o que quebrou, para aprender a assinatura de c
 
 | Momento | Tipo | Nível |
 |---|---|---|
-| Bloco 12 (fim da etapa 3) | Quebra intencional, sabendo o que quebrou | Lógica e código |
-| Bloco 16 (fim da etapa 4) | Às cegas | 1 (lógica) e 2 (configuração) |
-| Bloco 18 | Às cegas, com relatório completo | 1 e 2 |
-| Bloco 19 | Às cegas | 3 (infraestrutura: banco, Docker, rede, recursos) |
+| Bloco 13 (etapa 3) | Quebra intencional, sabendo o que quebrou | Lógica e código |
+| Bloco 20 (etapa 4) | Às cegas | 1 (lógica) e 2 (configuração) |
+| Bloco 25 (etapa 5) | Às cegas, com relatório completo | 1 e 2 |
+| Bloco 26 (etapa 5) | Às cegas, **conduzida por uma pessoa** | 3 (infraestrutura: banco, Docker, rede, recursos) |
+
+**Pelo menos uma rodada (a do bloco 26) e a defesa final precisam ser com uma pessoa,** de preferência o seu mentor. As outras podem ser feitas com a IA, com o protocolo abaixo. Relatórios avulsos podem ser enviados ao mentor para revisão a qualquer momento.
+
+### Como funciona a rodada com o mentor
+
+1. Antes do bloco, você garante que o projeto está funcionando e commitado.
+2. O mentor clona o repositório, sabota em uma branch e te passa só o sintoma.
+3. Você diagnostica e escreve o relatório de incidente.
+4. O mentor revisa o relatório como um post-mortem.
+5. Só depois vocês abrem o diff juntos.
 
 ## Níveis
 

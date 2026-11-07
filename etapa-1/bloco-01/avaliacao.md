@@ -11,7 +11,7 @@
 
 ### 1.
 
-Qual é a diferença entre `git merge` e `git rebase`? Em que situação cada um pode causar problema?
+O que acontece, no nível dos objetos do Git, quando você faz um commit? Por que o Git consegue voltar a qualquer versão?
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ Qual é a diferença entre `git merge` e `git rebase`? Em que situação cada um
 
 ### 2.
 
-O que acontece, no nível dos objetos do Git, quando você faz um commit? Por que o Git consegue voltar a qualquer versão?
+No debugger, qual a diferença entre step over e step into? Dê um exemplo em que usar o errado faria você perder a causa de um bug.
 
 **Minha resposta:**
 
@@ -27,23 +27,7 @@ O que acontece, no nível dos objetos do Git, quando você faz um commit? Por qu
 
 ### 3.
 
-No debugger, qual a diferença entre step over e step into? Dê um exemplo em que usar o errado faria você perder a causa de um bug.
-
-**Minha resposta:**
-
-
-
-### 4.
-
 Explique o que estes comandos fazem e por que funcionam juntos: `cat app.log | grep ERROR | wc -l`.
-
-**Minha resposta:**
-
-
-
-### 5.
-
-Você recebeu um conflito de merge. Descreva, passo a passo, como você o resolve e como confirma que não quebrou nada.
 
 **Minha resposta:**
 

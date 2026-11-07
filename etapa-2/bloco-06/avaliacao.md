@@ -1,4 +1,4 @@
-# Avaliação: Bloco 6, Árvores, ordenação e busca
+# Avaliação: Bloco 6, Complexidade (Big O) e estruturas lineares
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-Por que a busca binária só funciona em listas ordenadas? Qual é a complexidade dela e por quê?
+Qual é a complexidade de inserir no início de um `ArrayList` e de uma `LinkedList`? Explique o porquê pela estrutura de cada uma.
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ Por que a busca binária só funciona em listas ordenadas? Qual é a complexidad
 
 ### 2.
 
-Qual a diferença entre uma árvore de busca binária balanceada e uma desbalanceada em termos de desempenho?
+Sua solução do Two Sum tem qual complexidade de tempo e de espaço? Existe uma solução com outra combinação? Qual é o trade-off?
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Qual a diferença entre uma árvore de busca binária balanceada e uma desbalanc
 
 ### 3.
 
-Explique com suas palavras por que o merge sort é O(n log n).
+Por que a busca em uma tabela hash é O(1) em média, mas pode ser O(n) no pior caso?
 
 **Minha resposta:**
 
@@ -35,7 +35,7 @@ Explique com suas palavras por que o merge sort é O(n log n).
 
 ### 4.
 
-Para resolver a profundidade máxima de uma árvore, você usou recursão ou iteração? O que poderia dar errado com recursão em uma árvore muito profunda?
+Na sua tabela hash, o que acontece com o desempenho quando muitas chaves caem no mesmo índice? Como o `HashMap` do Java lida com isso?
 
 **Minha resposta:**
 
@@ -43,7 +43,7 @@ Para resolver a profundidade máxima de uma árvore, você usou recursão ou ite
 
 ### 5.
 
-Por que você acha que bancos de dados usam árvores (B-trees) para seus índices, e não listas ou tabelas hash? (Você vai voltar a essa pergunta no bloco 14.)
+Um método percorre uma lista e, para cada elemento, chama `lista.contains(x)`. Qual é a complexidade e como você a melhoraria?
 
 **Minha resposta:**
 

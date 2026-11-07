@@ -1,4 +1,4 @@
-# Avaliação: Bloco 7, Memória da JVM e garbage collector
+# Avaliação: Bloco 7, Árvores, ordenação e busca
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-O que fica na stack e o que fica na heap? Use um exemplo de código seu para explicar.
+Por que a busca binária só funciona em listas ordenadas? Qual é a complexidade dela e por quê?
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ O que fica na stack e o que fica na heap? Use um exemplo de código seu para exp
 
 ### 2.
 
-Se Java tem garbage collector, como é possível existir vazamento de memória? Dê um exemplo.
+Qual a diferença entre uma árvore de busca binária balanceada e uma desbalanceada em termos de desempenho?
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Se Java tem garbage collector, como é possível existir vazamento de memória? 
 
 ### 3.
 
-Qual a diferença entre `OutOfMemoryError` e `StackOverflowError`? Como você diagnostica cada um?
+Explique com suas palavras por que o merge sort é O(n log n).
 
 **Minha resposta:**
 
@@ -35,15 +35,7 @@ Qual a diferença entre `OutOfMemoryError` e `StackOverflowError`? Como você di
 
 ### 4.
 
-O que é uma pausa de garbage collection e por que ela importa em uma API com muitas requisições?
-
-**Minha resposta:**
-
-
-
-### 5.
-
-Explique com suas palavras por que a migração do Java 11 para o 25 pode reduzir o uso de memória de uma aplicação.
+Por que você acha que bancos de dados usam árvores (B-trees) para seus índices, e não listas ou tabelas hash? (Você vai voltar a essa pergunta no bloco 17.)
 
 **Minha resposta:**
 

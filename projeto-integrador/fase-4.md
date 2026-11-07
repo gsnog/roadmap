@@ -12,6 +12,7 @@ Persistir os dados com consistência e rodar tudo em containers.
 - Snapshot das promoções aplicadas gravado junto com o pedido, com a regra e o valor de cada desconto.
 - Controle de estoque com lock otimista ou pessimista, com a escolha justificada.
 - Índices para as consultas mais usadas, validados com `EXPLAIN ANALYZE`.
+- Idempotência na criação de pedido com o header `Idempotency-Key`: um retry não cria pedido duplicado, nem com requisições simultâneas.
 - Dockerfile e `docker-compose.yml` com a API e o PostgreSQL, configurados por variáveis de ambiente.
 
 ## Restrições desta fase
@@ -23,5 +24,6 @@ Persistir os dados com consistência e rodar tudo em containers.
 
 - `docker compose up` sobe tudo do zero em uma máquina limpa.
 - O teste de compras simultâneas passa contra o banco real.
+- O teste de retry com a mesma chave de idempotência passa, inclusive com requisições simultâneas.
 - Não existe problema N+1 na listagem de pedidos.
 - Você completou a primeira rodada de sabotagem com relatório de incidente.

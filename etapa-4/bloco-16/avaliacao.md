@@ -1,4 +1,4 @@
-# Avaliação: Bloco 16, Docker e ambiente de execução
+# Avaliação: Bloco 16, SQL na mão e modelagem de dados
 
 ## Regras
 
@@ -11,7 +11,7 @@
 
 ### 1.
 
-Qual a diferença entre uma imagem e um container?
+Qual a diferença entre INNER JOIN e LEFT JOIN? Dê um exemplo do seu projeto em que usar o errado daria um resultado incorreto.
 
 **Minha resposta:**
 
@@ -19,7 +19,7 @@ Qual a diferença entre uma imagem e um container?
 
 ### 2.
 
-Por que, dentro do Docker Compose, a API acessa o banco pelo nome do serviço e não por `localhost`?
+Qual a diferença entre WHERE e HAVING?
 
 **Minha resposta:**
 
@@ -27,7 +27,7 @@ Por que, dentro do Docker Compose, a API acessa o banco pelo nome do serviço e 
 
 ### 3.
 
-O que acontece com os dados do PostgreSQL quando você apaga o container sem um volume? Como evitar isso?
+Por que você guardaria o preço do produto também no item do pedido, e não só na tabela de produto? Que problema isso evita?
 
 **Minha resposta:**
 
@@ -35,7 +35,7 @@ O que acontece com os dados do PostgreSQL quando você apaga o container sem um 
 
 ### 4.
 
-Para que serve um build multi-stage?
+O que é normalização e quando faz sentido desnormalizar?
 
 **Minha resposta:**
 
@@ -43,7 +43,7 @@ Para que serve um build multi-stage?
 
 ### 5.
 
-Na rodada de sabotagem, qual foi seu caminho de diagnóstico? Que evidência confirmou a causa raiz?
+Que constraints (NOT NULL, UNIQUE, CHECK, FOREIGN KEY) você colocou no seu modelo e o que cada uma protege?
 
 **Minha resposta:**
 

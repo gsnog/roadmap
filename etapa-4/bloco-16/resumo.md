@@ -1,4 +1,4 @@
-# Resumo: Bloco 16, Docker e ambiente de execução
+# Resumo: Bloco 16, SQL na mão e modelagem de dados
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

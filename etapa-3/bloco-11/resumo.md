@@ -1,4 +1,4 @@
-# Resumo: Bloco 11, Testes automatizados
+# Resumo: Bloco 11, Spring Boot por dentro
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

@@ -1,4 +1,4 @@
-# Resumo: Bloco 2, Java: tipos, referências e orientação a objetos
+# Resumo: Bloco 2, Java: tipos, referências, orientação a objetos e primeiros testes
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 

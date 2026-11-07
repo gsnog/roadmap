@@ -1,10 +1,10 @@
-# Bloco 16: Docker e ambiente de execução
+# Bloco 16: SQL na mão e modelagem de dados
 
 **Semana 16 · cerca de 5 horas**
 
 ## Objetivo
 
-Empacotar e rodar a aplicação com Docker, entender containers, volumes e redes, e diagnosticar problemas de configuração. Fechar a etapa com o Modo Sabotagem nível 1 e 2.
+Escrever consultas SQL sem depender do ORM e modelar tabelas de forma consistente.
 
 ## Como dividir a semana
 
@@ -12,18 +12,20 @@ Empacotar e rodar a aplicação com Docker, entender containers, volumes e redes
 - **2h de prática:** os exercícios, **sem IA escrevendo código**. Se travar, use a IA só para explicar o conceito ou o erro.
 - **1h de fechamento:** preencher o `resumo.md` e fazer a `avaliacao.md`.
 
+Se não der tempo de terminar, continue na semana seguinte no mesmo ritmo. Nunca compense dobrando as horas.
+
 ## O que estudar (nesta ordem)
 
-1. Documentação oficial do Docker (docs.docker.com), seção "Get started".
-2. Documentação do **Docker Compose**.
-3. Aula "Command-line Environment" do **Missing Semester** (missing.csail.mit.edu), sobre processos, variáveis de ambiente e sinais.
+1. **SQLBolt** (sqlbolt.com): todas as lições interativas.
+2. **PostgreSQL Exercises** (pgexercises.com): exercícios práticos em PostgreSQL.
+3. Documentação do **PostgreSQL** (postgresql.org/docs), seção "Tutorial".
+4. Artigos sobre normalização (primeira, segunda e terceira formas normais).
 
 ## Prática
 
-1. Escreva um Dockerfile para a aplicação (de preferência multi-stage) e um `docker-compose.yml` com a API e o PostgreSQL.
-2. Configure a aplicação por variáveis de ambiente, sem nenhuma senha no código.
-3. Faça a API falhar de propósito por configuração (porta errada, host do banco errado, variável ausente) e anote o sintoma de cada falha.
-4. **Modo Sabotagem, níveis 1 e 2** (veja modo-sabotagem.md): primeira rodada às cegas.
+1. Modele as tabelas do projeto (pedido, item, produto, promoção) e desenhe o diagrama com as chaves e os relacionamentos.
+2. Escreva à mão, sem IA, consultas para: total vendido por produto, pedidos sem desconto e os 5 clientes que mais gastaram.
+3. Resolva as seções "Basic", "Joins and Subqueries" e "Aggregation" do pgexercises.
 
 ## Regra da semana
 

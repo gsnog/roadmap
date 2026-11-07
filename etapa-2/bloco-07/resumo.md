@@ -1,4 +1,4 @@
-# Resumo: Bloco 7, Memória da JVM e garbage collector
+# Resumo: Bloco 7, Árvores, ordenação e busca
 
 > Escreva com as suas palavras. Copiar definições não conta: se você não consegue explicar de um jeito diferente do material, ainda não entendeu.
 
