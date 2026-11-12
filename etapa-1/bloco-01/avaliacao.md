@@ -14,7 +14,7 @@
 O que acontece, no nível dos objetos do Git, quando você faz um commit? Por que o Git consegue voltar a qualquer versão?
 
 **Minha resposta:**
-
+quando eu faço um commit o git cria um snapshot do codigo naquele momento e ele consegue voltar a qualquer versao pq esses snapshots formam um historico e sao ligados pelos commit entao ele consegue refazer o caminho de volta.
 
 
 ### 2.
@@ -22,7 +22,7 @@ O que acontece, no nível dos objetos do Git, quando você faz um commit? Por qu
 No debugger, qual a diferença entre step over e step into? Dê um exemplo em que usar o errado faria você perder a causa de um bug.
 
 **Minha resposta:**
-
+o step over vai para a proxima linha e o step into entra dentro do metodo que esta sendo chamado. usar o errado me faria perder o bug pq talvez o bug estivesse dentro da logica do metodo e eu pulei direto para a proxima linha.
 
 
 ### 3.
@@ -30,7 +30,7 @@ No debugger, qual a diferença entre step over e step into? Dê um exemplo em qu
 Explique o que estes comandos fazem e por que funcionam juntos: `cat app.log | grep ERROR | wc -l`.
 
 **Minha resposta:**
-
+o cat le o arquivo o grep filtra e o wc conta quantos tem. eles funcionam juntos por conta da barra que funciona como um cano de conexão.
 
 ## Critérios de aprovação
 
